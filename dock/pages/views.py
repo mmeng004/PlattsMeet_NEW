@@ -4,8 +4,8 @@ from django.shortcuts import render,redirect
 from django.views.generic import TemplateView
 
 # from .forms import NewUserForm
-from django.contrib.auth import login
-from django.contrib import messages
+#from django.contrib.auth import login
+#from django.contrib import messages
 # Create your views here.
 class LandingPageView(TemplateView):
     template_name = 'home.html' 
